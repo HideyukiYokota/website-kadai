@@ -214,8 +214,10 @@ h2>a{
 .concept-1{
     max-width: 320px;
     margin-right: 80px;
-    /* display: flex; */
+    position: relative;
+    z-index: 91;
 }
+
 .concept-2{
     margin-top: 80px;
     width: 260px;
