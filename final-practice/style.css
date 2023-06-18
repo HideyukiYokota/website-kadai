@@ -41,7 +41,7 @@ header{
     margin-left: auto;
     /* justify-content: center; */
     align-items: center;
-    margin-top: 22px;
+    margin-top: 34px;
     margin-right: 22px;
    
 }
@@ -145,7 +145,7 @@ h2>a{
 }
 .back1{
     position: absolute;
-    right:-10%;
+    right:0;
     bottom:0;
     z-index:5;
 }
