@@ -1,0 +1,756 @@
+/*
+Theme Name: SAMURAI 整骨院
+Theme URI: https://www.sejuku.net/
+Description: SAMURAI ENGINEERのWordPress教材
+Version: 1.0.0
+Author: SAMURAI ENGINEER
+Author URI: https://www.sejuku.net/
+*/
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* PCヘッダー */
+header{
+    width:100%;
+    position: fixed;
+    top:0;
+    align-items: center;
+    height:46px;
+    z-index: 10;
+ 
+}
+.sp-head{
+    display: none;
+}
+.title{
+    display: none;
+}
+.pc-head {
+    display: flex;
+    margin-left: auto;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 22px;
+    margin-right: 22px;
+   
+}
+.pc-head > a >i {
+    display: none;
+}
+.pc-head >img{
+    align-items: center;
+    margin-right: auto;
+    margin-left: 28px;
+}   
+    
+
+.pc-head >a {
+    margin-right: 28px;
+    color:white;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left: auto;
+}
+
+
+
+.box-1{
+    background-color: #0C4324;
+    padding: 11px 16px;
+    font-weight: bold;
+    border-radius: 4px; 
+    white-space: nowrap;
+}
+.box-1 >a{
+    text-decoration: none;
+    color:white;
+}
+.sp-Carou{
+    display: none !important;
+}
+
+/* お知らせ */
+.info{
+    height: 64px;
+    /* width:100%; */
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    white-space: nowrap;
+}
+.info a{
+    margin-right: 10px;
+    /* text-decoration: none; */
+}
+.info >div{
+    margin-left: 40px;
+}
+.spw1 {
+    padding-top: 8px;
+}
+.spw1-1{
+    white-space: nowrap;
+}
+.info>div:nth-child(3){
+    padding-top: 8px;
+}
+.info>div:nth-child(3)>a{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 40px;
+    margin-top: 100px;
+}
+.info>div:nth-child(4)>a{
+    color:#000;
+}
+
+h2{
+    color:#468459;
+}
+.ti24{
+    font-size: 24px;
+}
+h2>a{
+    font-size: 18px;
+}
+.box-2{
+    background-color: #468459;
+    padding: 2px 16px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
+
+/* コンセプト */
+.concept{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+}
+.back1{
+    position: absolute;
+    right:-10%;
+    bottom:0;
+    z-index:5;
+}
+.back2{
+    position: absolute;
+    bottom: 15%;
+    right:0;
+    z-index:1;
+}
+.back3{
+    position: absolute;
+    left:10%;
+    top:10%;
+    color:#F7F9F7;
+    z-index:1;
+    font-size: 80px;
+   
+}
+.back4{
+    position: absolute;
+    left:10%;
+    top:10%;
+    color:#EBF0DC;
+    z-index:1;
+    font-size: 80px;
+   
+}
+.back5{
+    z-index:2;
+}
+
+.concept a{
+    position: relative;
+    z-index: 90;
+
+}
+
+
+.concept p{
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom:10px;
+    position: relative;
+    z-index: 90;
+    /* background-color: blue; */
+}
+
+.sign::before {
+    content:url(./image/deco24.png);
+    margin-right: 2px;
+    height: 24px;
+ }
+
+ .dai >a{
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color:#488459;
+    line-height: 44px;
+    /* background: rgba(203, 162, 164, .5); */
+ }
+
+.concept-sp{
+    display: none;
+}
+.concept-1{
+    max-width: 320px;
+    margin-right: 80px;
+    /* display: flex; */
+}
+.concept-2{
+    margin-top: 80px;
+    width: 260px;
+    position: relative;
+    z-index: 90;
+}
+.box-3{
+    border: #000000 1px solid;
+    padding: 2px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000; 
+    z-index:0;
+    display: inline;  
+}
+.txr{
+    text-align: right;
+    margin-right: 16px;
+}
+
+/* コース料金 */
+
+.sign2::before {
+    content:url(./image/deco-r.png);
+    margin-right: 4px;
+    height: 24px;
+    /* background-color:#F0F5E1; */
+ }
+ .sign2::after {
+    content:url(./image/deco-l.png);
+    margin-left: 4px;
+    height: 24px;
+ }
+
+ .course > h2 {
+    text-align: center;
+    position: relative;
+    z-index:5;
+ }
+ .course > div{
+    position: relative;
+    z-index:5;
+ }
+ .course a{
+    position: relative;
+    z-index:20;
+ }
+
+
+.course > h2 >p {
+    width:340px;
+    margin: 20px auto 0 auto;
+    font-size: 24px;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 24px;
+    /* padding-right:100px; */
+}
+.block-c{
+    margin: 0 1% 0 2% ;
+    z-index: 10;
+    max-width: 320px;
+}
+.block p {
+    color:#0C4324;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+.imgrnd{
+    border-radius: 5%;
+}
+.imgrnd2{
+    border-radius: 50%;
+}
+.block li{
+    font-size: 18px;
+    line-height:32px;
+}
+.course {
+    text-align: center;
+    background-color:#F0F5E1;
+    margin-top: 0;
+    padding-bottom: 100px;
+    position: relative;
+    /* z-index: -3; */
+}
+.nami{
+    margin-bottom: 0;
+    height: 10%;
+    z-index:-10;
+}
+
+
+
+/* カルーセル */
+.carou-b{
+    position: relative;
+    width:100%;
+    min-height:180px;
+}
+.abs-1{
+    position: absolute;
+    text-align: center;
+    bottom: 2%;
+    left:0;
+    right:0;
+    z-index: 10;
+}
+.carouselImg{
+    margin: 0 auto;
+}
+
+/* お客様 */
+.okyaku{
+    text-align: center ;
+    margin: 0 auto ;
+    padding-bottom: 24px;
+}
+.okyaku  .block-c{
+ width:260px;
+ text-align: center;
+}
+.okyaku  .block-c p{
+ text-align: center ;
+ white-space: nowrap;
+ margin-bottom: 24px;
+}
+
+.okyaku  .block-c a{
+display: inline-block;
+ margin-bottom: 24px;
+}
+.okyaku >h2> a{
+    display: inline-block;
+    width: 360px ;
+    font-size: 24px;
+   }
+
+/* フッター */
+footer h2 {
+    text-align: center;
+}
+footer .ti24{
+    font-size: 24px !important;
+    color: #468459 ;
+    font-weight: bold !important;
+        padding-bottom: 16px;
+
+}
+footer p{
+    color: #000;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer .block-c{
+    margin: 0 5%;
+}
+
+.box-4{
+    background-color: #468459;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;  
+    text-align: center; 
+    color: #ffffff;
+    margin-top: 20px;
+}
+.tel{
+    margin: 16px 0 ;
+    color:#468459 !important;
+}
+.tel span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pc-foot {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 40px;
+   
+}
+.pc-foot img{
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 28px;
+}   
+    
+
+.pc-foot a {
+    margin-right: 40px;
+    color:black;
+    text-decoration: none;
+    white-space: nowrap;
+    
+}
+.pc-footlast{
+    /* margin-top: 40px; */
+    padding: 14px;
+    background-color: #468459;
+    text-align: center;
+}
+.pc-footlast p{
+    color: white ;   
+}
+.bcolor{
+    background-color: #F0F5E1;
+    padding-bottom: 40px;
+}
+
+.bcolor h2{
+    margin-top: -6px;
+}
+
+iframe{
+    padding-left: 40px;
+}
+
+
+.totop{
+    position: fixed;
+    bottom: 10%;
+    right:10%;
+    opacity: 0.5;
+    z-index:100;
+}
+
+/* 当院ページ */
+.green{
+    background-color: #ffffff;
+  
+}
+
+.green >a{
+    color:#468459;
+}
+.green > .box-1{
+    color:#ffffff;
+}
+
+.greenhead{
+    position:static !important;
+    margin-bottom: 16px;
+    transform: translateX(0) ;
+}
+.pankuz  a{    
+    color: #468459;
+    text-decoration: none;
+}
+.pankuz  p{
+padding-left: 32px;
+}
+
+.greenflow{
+    position: relative;
+    /* background-color: red; */
+}
+
+
+
+.imgrnd3{
+    border-radius: 10%;
+}
+
+.point{
+    text-align: center;
+}
+.point  p{
+    font-size: 24px;
+    line-height: 10px;
+}
+
+.point .block{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.black-1{
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+    margin-top: 32px;
+    white-space: nowrap;
+} 
+iframe{
+    padding: 0;
+}
+
+/* コース・料金 */
+.coursep{
+    background-color:#FAFAFA !important ;
+}
+
+.concept img{
+    border-radius: 5%;
+}
+.coursep2 >.concept-1 > div > p{
+    margin: 0 auto 0 0;
+} 
+
+/* お知らせ */
+.spinfo,.spinfo2{
+    display: none;
+}
+.info1{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 32px;
+    /* align-items:center; */
+    /* height: 100px; */
+}
+.info1 > div >p{
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 20px;
+}
+.info1 > div >p>a{
+    font-weight:400;
+    font-size: 16px;
+}
+
+.info1 > div >p>a:nth-child(2){
+    margin-left: 32px;
+    text-align: right;
+    color:#ffffff;
+    border-radius: 5%;
+    background-color: #468459;
+    padding: 2px 16px;
+    white-space: nowrap;
+
+}
+.main{
+    display: flex;
+}
+.blog{
+    width: 70%;
+}
+.side{
+    width:30%;
+}
+.detailside{
+    width:30%;
+}
+.side > p:nth-child(1) {
+    font-size: 24px;
+    color:#0C4324;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+.detailside > p:nth-child(1) {
+    font-size: 24px;
+    color:#0C4324;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+.no-deco{
+    text-decoration: none !important;
+    color:#000 !important;
+    font-size: 24px !important;
+    font-weight: bold !important;;
+}
+/* 詳細 */
+
+.infoDetail{
+    display:block;
+    padding: 0 32px !important;
+    color:#000 !important;
+    /* height: 300px; */
+}
+
+.infoDetail>div>div:nth-child(3){
+    color:#000 !important;
+    margin: 16px auto !important;
+}
+.infoDetail>div>div:nth-child(1) >p:nth-child(1){
+    color:#000 !important;
+    font-weight: bold !important;;
+    font-size: 24px !important;
+}
+
+
+
+/* お客様の声 */
+.blog2{
+    width: 90%;
+    margin-top: 32px;
+}
+
+.voice{
+    display: flex;
+    justify-content:center;
+    margin: 0 auto;
+   
+}
+.voice >div:nth-child(1){
+    min-width: 260px;
+}
+
+.voice >div:nth-child(){
+    width: 60%;
+}
+.voice >div >img{
+    border-radius: 50%;
+    padding-right: 32px;
+}
+.voice > div >p:nth-child(1){
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 20px;
+    color: #0C4324;
+}
+.voice > div >p>a{
+    font-weight:400;
+    font-size: 16px;
+}
+.voice >.block-c{
+    margin-top: 32px;
+}
+/* お問い合わせ */
+.toiawase-main{
+    display: block;
+    width: 100%;
+}
+
+.toiawase{
+    margin: 32px;
+}
+.toiawase > p:nth-child(1){
+    font-size: 24px;
+    font-weight: bold;
+    color: #0C4324;
+}
+.toiawase > p:nth-child(2){
+    margin-bottom: 0;
+}
+.toiawase > p:nth-child(3){
+    margin-top: 0;
+  
+}
+
+/* お問い合わせフォーム */
+.contact{
+    width: 100%;
+}
+table{
+    width: 100%;
+   
+}
+tr {
+    display: block;
+    width: 100%;
+    padding-left: 32px;
+    
+}
+
+tr > td:nth-child(1){
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    white-space: nowrap;
+}
+tr > td:nth-child(1) >span{
+    font-size: 14px;
+}
+tr > td:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+    display:block;
+   
+}
+tr> td> input,textarea,select{
+    width: 90%;
+    margin-right: 10%;
+    margin-bottom: 32px;
+}
+form > input{
+    display: block;
+    background-color:#468459;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 8px 80px;
+    border-radius: 5%;
+    border: none;
+}
+
+/* Confirmation */
+.confirmation{
+    width:70%;
+    margin: 48px auto;
+    border:grey 1px solid;
+}
+.confirmation >div{
+    padding: 48px;
+    margin: 0 auto;
+}
+.confirmation >div > p{
+    display: block;
+    text-align: center;
+}
+
+.confirmation  p:nth-child(2){
+    color: grey;
+
+}
+
+
+.confirmation  a {
+    display: block;
+    width:100px;
+    background-color:#468459;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 12px 80px;
+    border-radius: 5%;
+    border: none;
+    margin-top: 32px;
+    text-decoration: none;
+}
+
+
+
+
