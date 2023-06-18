@@ -156,7 +156,7 @@ h2>a{
     z-index:1;
 }
 .back3{
-    position: absolute;
+    position: absolute !important;
     left:10%;
     top:10%;
     color:#F7F9F7;
