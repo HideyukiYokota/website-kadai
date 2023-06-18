@@ -22,7 +22,7 @@
 
 $(function () {
   $(".Carousel").slick({
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 1000,
     slideToShow: 1,
