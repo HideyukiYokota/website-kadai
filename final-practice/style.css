@@ -27,7 +27,7 @@ header{
     top:0;
     align-items: center;
     height:46px;
-    z-index: 10;
+    z-index: 999;
  
 }
 .sp-head{
